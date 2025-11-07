@@ -1,0 +1,28 @@
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\bin\Debug\net8.0\Lab1_Task.ConsoleApp.exe
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\bin\Debug\net8.0\Lab1_Task.ConsoleApp.deps.json
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\bin\Debug\net8.0\Lab1_Task.ConsoleApp.runtimeconfig.json
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\bin\Debug\net8.0\Lab1_Task.ConsoleApp.dll
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\bin\Debug\net8.0\Lab1_Task.ConsoleApp.pdb
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.AssemblyInfoInputs.cache
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.AssemblyInfo.cs
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.csproj.CoreCompileInputs.cache
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.dll
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\refint\Lab1_Task.ConsoleApp.dll
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.pdb
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\Lab1_Task.ConsoleApp.genruntimeconfig.cache
+c:\Users\maksy\Desktop\na uczelnie\jipp-z301-laboratory-1-task-MaksymilianKR-main (1)\jipp-z301-laboratory-1-task-MaksymilianKR-main\src\Lab1_Task\Lab1_Task.ConsoleApp\obj\Debug\net8.0\ref\Lab1_Task.ConsoleApp.dll
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.AssemblyInfo.cs
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.dll
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\refint\Lab1_Task.ConsoleApp.dll
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.pdb
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\bin\Debug\net8.0\Lab1_Task.ConsoleApp.exe
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\bin\Debug\net8.0\Lab1_Task.ConsoleApp.deps.json
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\bin\Debug\net8.0\Lab1_Task.ConsoleApp.runtimeconfig.json
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\bin\Debug\net8.0\Lab1_Task.ConsoleApp.dll
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\bin\Debug\net8.0\Lab1_Task.ConsoleApp.pdb
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\Lab1_Task.ConsoleApp.genruntimeconfig.cache
+C:\Users\maksy\Desktop\zadanie C#\Dla-Uczelni-WWSI-zadanie-001-main\Dla-Uczelni-WWSI-zadanie-001-main\obj\Debug\net8.0\ref\Lab1_Task.ConsoleApp.dll

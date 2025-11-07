@@ -1,0 +1,46 @@
+[
+  {
+    "AccountNumber": "001",
+    "OwnerName": "Piotru\u015B Pan",
+    "Balance": 1500,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Oszcz\u0119dno\u015Bciowe",
+    "CardColor": "Z\u0142oty",
+    "Transactions": [
+      {
+        "Date": "2025-11-05T22:30:41.5684519+01:00",
+        "Type": "deposit",
+        "Amount": 500,
+        "AccountNumber": "001"
+      }
+    ]
+  },
+  {
+    "AccountNumber": "002",
+    "OwnerName": "Harry Potter",
+    "Balance": 2200,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Standard",
+    "CardColor": "Niebieski",
+    "Transactions": [
+      {
+        "Date": "2025-11-05T22:30:41.5741749+01:00",
+        "Type": "withdrawal",
+        "Amount": 300,
+        "AccountNumber": "002"
+      }
+    ]
+  },
+  {
+    "AccountNumber": "003",
+    "OwnerName": "Johny Wick",
+    "Balance": 150,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Premium",
+    "CardColor": "Czarny",
+    "Transactions": []
+  }
+]
