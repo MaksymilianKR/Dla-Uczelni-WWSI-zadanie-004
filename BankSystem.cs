@@ -8,9 +8,16 @@ namespace Lab1_Task.ConsoleApp
     public class BankSystem
     {
         private readonly List<BankAccount> _accounts = new();
+        private readonly List<Customer> _customers = new();
         private const string FilePath = "accounts.json";
 
+
+        public List<BankAccount> Accounts => _accounts;
+        public List<Customer> Customers => _customers;
+
         public void AddAccount(BankAccount account) => _accounts.Add(account);
+
+        public void AddCustomer(Customer customer) => _customers.Add(customer);
 
         public BankAccount? FindAccount(string accountNumber) =>
             _accounts.Find(a => a.AccountNumber == accountNumber);

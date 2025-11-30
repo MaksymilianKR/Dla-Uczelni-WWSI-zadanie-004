@@ -6,7 +6,8 @@ namespace Lab1_Task.ConsoleApp
     public class BankAccount
     {
         public string AccountNumber { get; set; }
-        public string OwnerName { get; set; }
+        public string OwnerName { get; set; }   
+        public Customer? Owner { get; set; }    
         public decimal Balance { get; private set; }
         public string Currency { get; set; }
         public bool IsActive { get; private set; }
@@ -38,6 +39,21 @@ namespace Lab1_Task.ConsoleApp
             if (!IsActive || amount <= 0 || amount > Balance) return false;
             Balance -= amount;
             Transactions.Add(new Transaction(DateTime.Now, "withdrawal", amount, AccountNumber));
+            return true;
+        }
+
+        // NOWA METODA – TransferTo
+        public bool TransferTo(BankAccount target, decimal amount)
+        {
+            if (!IsActive || target == null || !target.IsActive || amount <= 0 || amount > Balance)
+                return false;
+
+            Balance -= amount;
+            target.Balance += amount;
+
+            Transactions.Add(new Transaction(DateTime.Now, "transfer-out", amount, target.AccountNumber));
+            target.Transactions.Add(new Transaction(DateTime.Now, "transfer-in", amount, AccountNumber));
+
             return true;
         }
 

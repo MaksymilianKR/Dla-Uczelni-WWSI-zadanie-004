@@ -1,0 +1,77 @@
+[
+  {
+    "AccountNumber": "001",
+    "OwnerName": "Piotr Pan",
+    "Owner": {
+      "FirstName": "Piotr",
+      "LastName": "Pan",
+      "Email": "piotr.pan@example.com",
+      "Pesel": "12345678901"
+    },
+    "Balance": 1500,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Oszcz\u0119dno\u015Bciowe",
+    "CardColor": "Z\u0142oty",
+    "Transactions": [
+      {
+        "Date": "2025-11-30T19:50:51.1339019+01:00",
+        "Type": "deposit",
+        "Amount": 500,
+        "AccountNumber": "001"
+      }
+    ]
+  },
+  {
+    "AccountNumber": "002",
+    "OwnerName": "Harry Potter",
+    "Owner": {
+      "FirstName": "Harry",
+      "LastName": "Potter",
+      "Email": "harry.potter@example.com",
+      "Pesel": "23456789012"
+    },
+    "Balance": 2000,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Standard",
+    "CardColor": "Niebieski",
+    "Transactions": [
+      {
+        "Date": "2025-11-30T19:50:51.1393891+01:00",
+        "Type": "withdrawal",
+        "Amount": 300,
+        "AccountNumber": "002"
+      },
+      {
+        "Date": "2025-11-30T19:50:51.1394946+01:00",
+        "Type": "transfer-out",
+        "Amount": 200,
+        "AccountNumber": "003"
+      }
+    ]
+  },
+  {
+    "AccountNumber": "003",
+    "OwnerName": "John Wick",
+    "Owner": {
+      "FirstName": "John",
+      "LastName": "Wick",
+      "Email": "john.wick@example.com",
+      "Pesel": "34567890123"
+    },
+    "Balance": 350,
+    "Currency": "PLN",
+    "IsActive": true,
+    "AccountType": "Premium",
+    "CardColor": "Czarny",
+    "Transactions": [
+      {
+        "Date": "2025-11-30T19:50:51.1394955+01:00",
+        "Type": "transfer-in",
+        "Amount": 200,
+        "AccountNumber": "002"
+      }
+    ]
+  }
+]
