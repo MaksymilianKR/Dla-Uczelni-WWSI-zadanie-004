@@ -34,10 +34,10 @@ namespace Lab1_Task.ConsoleApp
 
         public override void PrintHeader()
         {
-            Console.WriteLine("********** RAPORT SALD **********");
+            Console.WriteLine("------* RAPORT SALD *------");
             Console.WriteLine($"Waluta: {Currency}");
             Console.WriteLine($"Utworzono: {CreatedAt}");
-            Console.WriteLine("*********************************");
+            Console.WriteLine("------*************------");
         }
     }
 }
