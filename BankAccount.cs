@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
+using Lab1_Task.ConsoleApp.Interfaces;
 
 namespace Lab1_Task.ConsoleApp
 {
-    public class BankAccount
+    public class BankAccount : INotifiableEntity
     {
         public string AccountNumber { get; set; }
-        public string OwnerName { get; set; }   
-        public Customer? Owner { get; set; }    
+        public string OwnerName { get; set; }
+
+        [JsonIgnore]
+        public Customer? Owner { get; set; }
+
         public decimal Balance { get; private set; }
         public string Currency { get; set; }
         public bool IsActive { get; private set; }
@@ -42,7 +47,6 @@ namespace Lab1_Task.ConsoleApp
             return true;
         }
 
-        // NOWA METODA – TransferTo
         public bool TransferTo(BankAccount target, decimal amount)
         {
             if (!IsActive || target == null || !target.IsActive || amount <= 0 || amount > Balance)
@@ -61,5 +65,12 @@ namespace Lab1_Task.ConsoleApp
 
         public override string ToString() =>
             $"{AccountNumber} | {OwnerName} | {Balance} {Currency} | {AccountType} | {(IsActive ? "Aktywne" : "Zamknięte")}";
+
+        public string DisplayName => AccountNumber;
+
+        public string GetNotificationSummary()
+        {
+            return $"Konto {AccountNumber} | Saldo: {Balance:0.00} {Currency}";
+        }
     }
 }

@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Lab1_Task.ConsoleApp.Interfaces;
+using Lab1_Task.ConsoleApp.Services;
 
 namespace Lab1_Task.ConsoleApp
 {
@@ -56,7 +59,11 @@ namespace Lab1_Task.ConsoleApp
             bank.AddAccount(acc2);
             bank.AddAccount(acc3);
 
-            acc1.Deposit(500);              
+            customer1.Accounts.Add(acc1);
+            customer2.Accounts.Add(acc2);
+            customer3.Accounts.Add(acc3);
+
+            acc1.Deposit(500);             
             acc2.Withdraw(300);            
             acc2.TransferTo(acc3, 200);     
 
@@ -74,6 +81,38 @@ namespace Lab1_Task.ConsoleApp
                 ? $"Znaleziono konto 002: {found.ToShortInfo()}"
                 : "Nie znaleziono konta 002");
             Console.WriteLine();
+
+            var customerNotificationSender = new ConsoleNotificationSender<Customer>();
+            var accountNotificationSender = new ConsoleNotificationSender<BankAccount>();
+
+            customerNotificationSender.Send(customer1, "Twoje nowe konto zostało utworzone.");
+
+            var lowBalanceAccounts = bank.Accounts
+                .Where(a => a.Balance < 1000m);
+
+            accountNotificationSender.SendMany(lowBalanceAccounts,
+                "Twoje saldo jest niższe niż 1000 PLN.");
+            Console.WriteLine();
+
+            INotificationSender<BankAccount> accountSender = new ConsoleNotificationSender<BankAccount>();
+            INotificationSender<Customer> customerSender = new ConsoleNotificationSender<Customer>();
+
+            customerSender.Send(customer2, "Dziękujemy za skorzystanie z naszej oferty!");
+            accountSender.Send(acc3, "Twoja ostatnia transakcja została zaksięgowana.");
+
+            var entities = new List<INotifiableEntity>
+            {
+                customer1, customer2, customer3,
+                acc1, acc2, acc3
+            };
+
+            Console.WriteLine("=== Lista wszystkich powiadamialnych encji ===");
+            foreach (var e in entities)
+            {
+                Console.WriteLine($"DisplayName: {e.DisplayName}");
+                Console.WriteLine($"Summary: {e.GetNotificationSummary()}");
+                Console.WriteLine();
+            }
 
             List<BankReport> reports = new List<BankReport>
             {
